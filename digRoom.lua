@@ -50,8 +50,7 @@ gotoStart()
 for n = 1,4 do
   segCut()
 end
-turtle.turnLeft()
-dignScoot()
-turtle.turnLeft()
 lineCut()
+turtle.digUp()
+turtle.digDown()
 comeHome()
